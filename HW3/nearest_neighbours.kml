@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+
+<Document>
+
+	<name>Folders</name>
+
+
+  <Folder><name>Folder1</name><open>1</open>
+
+
+	   	<Placemark>
+	   		<name>Neighbour1</name>
+
+
+	   		<LineString>
+	   			<tessellate>1</tessellate>
+	   			<coordinates>
+	   				-118.2877316,34.026213,0  -118.28553202867741,34.018908893517725,0 
+	   			</coordinates>
+	   		</LineString>
+	   	</Placemark>
+
+	   </Folder>
+<Folder><name>Folder2</name><open>1</open>
+	   <Placemark>
+	   	<name>Neighbour2</name>
+
+
+
+	   	<LineString>
+	   		<tessellate>1</tessellate>
+	   		<coordinates>
+	   			-118.2877316,34.026213,0  -118.2856959189723,34.01935221267535,0
+	   		</coordinates>
+	   	</LineString>
+
+	   </Placemark>
+
+  </Folder>
+
+  <Folder><name>Folder3</name><open>1</open>
+  
+  	<Placemark><name>Neighbour3</name>
+
+
+
+  		<LineString>
+  			<tessellate>1</tessellate>
+  			<coordinates>
+  				-118.2877316,34.026213,0  -118.2863916066605,34.01973257764314,0
+  			</coordinates>
+  		</LineString>
+  	</Placemark>
+  
+  </Folder>
+  
+  
+  <Folder><name>Folder4</name><open>1</open>
+  
+  	<Placemark><name>Neighbour4</name>
+
+
+
+  		<LineString>
+  			<tessellate>1</tessellate>
+  			<coordinates>
+  				-118.2877316,34.026213,0  -118.28547720309949,34.022850473949966,0
+  			</coordinates>
+  		</LineString>
+  	</Placemark>
+  
+  </Folder>
+
+	
+
+</Document>
+</kml>
+

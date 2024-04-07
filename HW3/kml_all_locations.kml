@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Folder><name>Folder1</name><open></open>
+<Placemark><name>Geo sciences</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28651013275989,34.01885923494027</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder2</name><open>1</open>
+<Placemark><name>Bio sciences</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2863916066605,34.01973257764314</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder3</name><open>1</open>
+<Placemark><name>Ceramics studio</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287248,34.019512</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder4</name><open>1</open>
+<Placemark><name>Makens</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2879531,34.0191375</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder5</name><open>1</open>
+<Placemark><name>Business</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28553202867741,34.018908893517725</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder6</name><open>1</open>
+<Placemark><name>Accounting</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2856959189723,34.01935221267535</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder7</name><open>1</open>
+<Placemark><name>Production</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28636762645068,34.02319452460899</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder8</name><open>1</open>
+<Placemark><name>Television</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28547720309949,34.022850473949966</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder9</name><open>1</open>
+<Placemark><name>Annerberg1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28589916973743,34.022191418220935</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder10</name><open>1</open>
+<Placemark><name>Annerberg2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28613038056704,34.02171531571194</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder11</name><open>1</open>
+<Placemark><name>Kauffman</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854219,34.0233375</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Folder12</name><open>1</open>
+<Placemark><name>Symphonic hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854375,34.0231875</coordinates></Point>
+</Placemark>
+</Folder>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2877316,34.026213</coordinates></Point>
+</Placemark>
+</Document></kml>

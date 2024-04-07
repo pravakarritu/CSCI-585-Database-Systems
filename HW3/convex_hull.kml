@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Placemark>
+  <name>valid polygon example</name>
+
+
+  <Polygon>
+      <tessellate>1</tessellate>
+      <outerBoundaryIs>
+          <LinearRing>
+              <coordinates>
+                  -118.2879531,34.0191375
+                  -118.28553202867741,34.018908893517725
+                  -118.2854219,34.0233375
+                  -118.2877316,34.026213 
+                  -118.2879531,34.0191375
+              </coordinates>
+          </LinearRing>
+      </outerBoundaryIs>
+  </Polygon>
+ 
+
+</Placemark>
+
+
+</Document></kml>

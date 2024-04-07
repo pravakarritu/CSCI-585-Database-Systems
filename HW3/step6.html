@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>OL</title>
+    <script src="https://openlayers.org/api/OpenLayers.js">
+    </script>
+    <style>
+#map {
+    width:400px;
+    height:400px;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+
+
+<script>
+console.log("Hola, all!");
+alert("Hello JS World!");
+
+var d = {"k1":[{"longitude":34.01885923494027, "latitude":-118.28651013275989},{"longitude":34.01973257764314, "latitude":-118.2863916066605},{"longitude":34.019512, "latitude":-118.287248},{"longitude":34.0191375, "latitude":-118.2879531},{"longitude":34.018908893517725, "latitude":-118.28553202867741},{"longitude":34.01935221267535, "latitude":-118.2856959189723},{"longitude":34.02319452460899, "latitude":-118.28636762645068},{"longitude":34.022850473949966, "latitude":-118.28547720309949},{"longitude":34.022191418220935, "latitude":-118.28589916973743},{"longitude":34.02171531571194, "latitude":-118.28613038056704},{"longitude":34.0233375, "latitude":-118.2854219},{"longitude":34.0231875, "latitude":-118.2854375},{"longitude":34.026213, "latitude":-118.2877316}]};
+localStorage.setItem("myData",JSON.stringify(d));
+
+var dataStored = JSON.parse(localStorage.getItem("myData"));
+console.log(dataStored);
+var a = dataStored.k1;
+for(var indx in a) {
+  console.log(a[indx]);
+}
+
+function initMap() {
+        map = new OpenLayers.Map('map');
+        basemap = new OpenLayers.Layer.OSM("Simple OSM Map");
+        map.addLayer(basemap);
+        markers = new OpenLayers.Layer.Markers("Markers");
+        map.addLayer(markers);
+}
+
+function addMarker(latitude, longitude) {
+        var lonLat = new OpenLayers.LonLat(longitude, latitude)
+            .transform(
+                new OpenLayers.Projection("EPSG:4326"),
+                map.getProjectionObject()
+        );
+        var point = new OpenLayers.Marker(lonLat);
+        markers.addMarker(point);
+        map.setCenter(lonLat, 8);
+}
+
+
+initMap();
+
+addMarker(34.01885923494027,-118.28651013275989)
+addMarker(34.01973257764314,-118.2863916066605)
+addMarker(34.019512,-118.287248)
+addMarker(34.0191375,-118.2879531)
+addMarker(34.018908893517725,-118.28553202867741)
+addMarker(34.01935221267535,-118.2856959189723)
+addMarker(34.02319452460899,-118.28636762645068)
+addMarker(34.022850473949966,-118.28547720309949)
+addMarker(34.022191418220935,-118.28589916973743)
+addMarker(34.02171531571194,-118.28613038056704)
+addMarker(34.0233375,-118.2854219)
+addMarker(34.0231875,-118.2854375)
+addMarker(34.026213,-118.2877316)
+
+</script>
+
+</body>
+
+</html>
