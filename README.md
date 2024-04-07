@@ -1,6 +1,6 @@
-Coursework of CSCI-585 Database Systems 
+# Coursework of CSCI-585 Database Systems 
 
-Homeworks
+#### Homeworks
 
 HW1 - 6/6
 
@@ -16,21 +16,21 @@ HW5 - 6/6
 
 
 
-Midterm
+#### Midterm
 
 35 / 35
 
 
 
 
-Final Exam
+#### Final Exam
 
 28.5 / 35
 
 
 
 
-Final Calculated Grade
+#### Final Calculated Grade
 
 Points
 
