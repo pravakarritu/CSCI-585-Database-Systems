@@ -12,14 +12,23 @@ HW4 - 6/6
 
 HW5 - 6/6
 
+
+
+
+
 Midterm
 
 35 / 35
 
 
+
+
 Final Exam
 
 28.5 / 35
+
+
+
 
 Final Calculated Grade
 
