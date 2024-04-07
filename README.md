@@ -3,9 +3,13 @@ Coursework of CSCI-585 Database Systems
 Homeworks
 
 HW1 - 6/6
+
 HW2 - 6/6
+
 HW3 - 6/6
+
 HW4 - 6/6
+
 HW5 - 6/6
 
 Midterm
